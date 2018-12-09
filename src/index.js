@@ -2,10 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import * as serviceWorker from './serviceWorker';
+import FirstSection from './components/FirstSection'
+import SecondSection from './components/SecondSection'
+import logo from './logo.svg';
 
 ReactDOM.render(
-
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+<div>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary" style={{zIndex:'1000'}}>
     <a className="navbar-brand" href="#">Navbar</a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
@@ -31,6 +34,28 @@ ReactDOM.render(
       </form>
     </div>
   </nav>
+  <div>
+    <div  className="App">
+    <header className="App-header">
+    
+    <img src={logo} className="App-logo" alt="logo" />
+    <p>
+        Edit <code>src/App.js</code> and save to reload.
+    </p>
+    <a
+        className="App-link"
+        href="https://reactjs.org"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Learn React
+    </a>
+    </header>
+    </div>
+    <FirstSection />
+    <SecondSection />
+    </div>
+  </div>
     , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
