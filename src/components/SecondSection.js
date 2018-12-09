@@ -24,7 +24,7 @@ class SecondSection extends Component {
 
                       
                         <div class="single-team-members wow fadeInUp" data-wow-delay="0.2s" >
-                            <img src="https://colorlib.com/preview/theme/fitnessgym/img/team-img/1.png" alt="" />
+                            <img src="https://colorlib.com/preview/theme/fitnessgym/img/team-img/1.png" alt="" class="team" />
                             
                             <div class="team-members-info">
                                 <h3>Julia Smith</h3>

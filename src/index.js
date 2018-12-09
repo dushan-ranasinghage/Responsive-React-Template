@@ -4,11 +4,12 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import FirstSection from './components/FirstSection'
 import SecondSection from './components/SecondSection'
+import Footer from './components/Footer'
 import logo from './logo.svg';
 
 ReactDOM.render(
 <div>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary" style={{zIndex:'1000'}}>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
     <a className="navbar-brand" href="#">Navbar</a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
@@ -54,6 +55,7 @@ ReactDOM.render(
     </div>
     <FirstSection />
     <SecondSection />
+    <Footer />
     </div>
   </div>
     , document.getElementById('root'));
