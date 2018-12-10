@@ -20,10 +20,10 @@ ReactDOM.render(
           <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#why-fitness-gym">Features</a>
+          <a className="nav-link" href="#why-fitness-gym">Why ?</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#instructors">Pricing</a>
+          <a className="nav-link" href="#instructors">Instructors</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">About</a>
@@ -49,7 +49,7 @@ ReactDOM.render(
         target="_blank"
         rel="noopener noreferrer"
     >
-        Learn React  <i class="fas fa-arrow-right"></i>
+        Join with US  <i class="fas fa-arrow-right"></i>
     </a>
     </header>
     </div>
