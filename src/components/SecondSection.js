@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class SecondSection extends Component {
     render () {
         return (
-            <div id="instructors" class="container">
+            <div id="instructors" class="container" style={{    borderBottom: '1px solid rgb(0, 0, 0)'}}>
             <div class="row">
             <div class="col-12"><div class="section-spacing"></div></div>
                 <div class="col-12">

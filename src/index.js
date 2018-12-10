@@ -5,6 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import FirstSection from './components/FirstSection'
 import SecondSection from './components/SecondSection'
 import Footer from './components/Footer'
+import Widget from './components/widget'
 import logo from './logo.svg';
 
 ReactDOM.render(
@@ -55,6 +56,7 @@ ReactDOM.render(
     </div>
     <FirstSection />
     <SecondSection />
+    <Widget />
     <Footer />
     </div>
   </div>
