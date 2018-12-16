@@ -4,18 +4,20 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import Navbar from './components/Navbar'
 import Slider from './components/Slider'
+import Widget1 from './components/widget1'
+import About from './components/About'
 import FirstSection from './components/FirstSection'
 import SecondSection from './components/SecondSection'
 import Footer from './components/Footer'
-import Widget from './components/widget'
 
 ReactDOM.render(
   <div>
     <Navbar />
     <Slider />
+    <Widget1 />
+    <About />
     <FirstSection />
     <SecondSection />
-    <Widget />
     <Footer />
   </div>
     , document.getElementById('root'));

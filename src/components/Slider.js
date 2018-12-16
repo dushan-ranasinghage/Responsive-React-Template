@@ -10,7 +10,9 @@ export default class Slider extends Component {
         
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-            Edit <code>src/App.js</code> and save to reload.
+            {/* Edit <code>src/App.js</code> and save to reload. */}
+            <code style={{fontSize: 'inherit'}}>MAKE IT HAPPEN!</code>
+WINING IS EASIER THAN YOU THINK!
         </p>
         <a
             className="App-link"
@@ -19,8 +21,11 @@ export default class Slider extends Component {
             rel="noopener noreferrer"
             style={{textDecoration: 'none'}}
         >
-            Join with US  <i class="fas fa-arrow-right"></i>
+            Join with NeXuS  <i class="fas fa-arrow-right"></i>
         </a>
+        <br />
+        <button type="button" class="btn btn-danger">LEARN MORE</button>
+        
         </header>
         </div>
     )

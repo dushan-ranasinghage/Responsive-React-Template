@@ -7,16 +7,17 @@ export default class Navbar extends Component {
 
     componentDidMount() {
         document.addEventListener('scroll', () => {
-            const isTop = window.scrollY < 100;
+            const isTop = window.scrollY < 680;
             if (isTop !== this.state.isTop) {
                 this.setState({ isTop })
             }
-        });
+});
     }
 
   render() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary" style={{opacity: (this.state.isTop===false)?'0':'1'}}>
+        <nav className="navbar navbar-expand-lg " style={{backgroundColor: (this.state.isTop===false)?'#000':'',boxShadow: (this.state.isTop===false)?
+    'rgb(255, 0, 0) 0px 3px 7.01px, rgba(255, 0, 0, 0.23) 0px 3px 3px':'0 2px 0.01px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23)',    fontSize: 'x-large'}}>
         <a className="navbar-brand" href="#">NeXuS <i class="fas fa-dumbbell"></i></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
@@ -33,7 +34,12 @@ export default class Navbar extends Component {
               <a className="nav-link" href="#instructors">Instructors</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">About</a>
+              <a className="nav-link" href="#about">About</a>
+            </li>
+            <li className="nav-item" style={{display: 'flex'}}>
+              
+              <button type="button" class="btn btn-danger" style={{transform: 'scale(0.8,0.7)',fontSize:'inherit'}} >JOIN NOW</button>
+              
             </li>
           </ul>
           <form className="form-inline my-2 my-lg-0">
